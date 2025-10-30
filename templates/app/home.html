@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+</html>
+{% extends 'app/base.html' %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<h1>Welcome to Offa Market Cooperative System</h1>
+<p>Total Balance: {{ total_balance }}</p>
+<h2>Cooperatives</h2>
+<ul>
+    {% for coop in cooperatives %}
+    <li>{{ coop.name }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
