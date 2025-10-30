@@ -1,3 +1,3 @@
-Django==4.0
+Django==4.2.16
 weasyprint==62.1
 gunicorn==20.1.0
