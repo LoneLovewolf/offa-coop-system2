@@ -11,5 +11,5 @@ urlpatterns = [
     path('expense-create/', views.create_expense, name='expense_create'),
     path('transaction-create/', views.create_transaction, name='transaction_create'),
     path('loan-request/', views.request_loan, name='loan_request'),
-    path('report/', views.generate_report, name='report'),
+    path('generate-report/', views.generate_report, name='generate_report'),
 ]
